@@ -1,0 +1,35 @@
+<h1>All in</h1>
+<h3> this is my title {{{title}}}</h3>
+
+<p>
+    this is the variable 
+</p>
+<table>
+<tr><th>seaon</th><th>count</th></tr>
+  <tr>
+      {{#each matchesPlayedPer}}
+      
+    <th>{{this.season}}</th>
+    <th>{{this.matchesplayed}}</th>
+   
+  </tr>
+  
+
+
+{{/each}}
+</table>
+
+    
+
+    <table>
+  <tr>
+      {{#each matchesWonPerteam}}
+    <th>{{this.season}}</th>
+    <th>{{this.team1}}</th>
+    <th>{{this.count}}</th>
+  </tr>
+  
+
+
+{{/each}}
+</table>
